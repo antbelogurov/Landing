@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open sans",serif;
+}
+/* main config */
+.section__text h1 {
+    font-size: 36px;
+    font-family: raleway;
+    text-transform: uppercase;
+ }
+ .section__text h2 {
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .section__text h4 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #929394;
+ }
+ .padding {
+    padding: 120px 0;
+}
+.gray {
+    background-color: #f5f5f5;
+}
+.section__hr {
+    width: 65px;
+    background-color: #ff9b51;
+    margin: 30px 0;
+    height: 2px;
+}
+.section__hr-center {
+    margin: 30px auto;
+}
+/* NavBar */
+.navbar-link {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.navbar-brand img {
+    max-width: 80px;
+}
+
+/* Header */
+header {
+    background: url(../Images/header_bg.jpg) center center fixed;
+    background-size: cover;
+}
+
+.header__hr {
+    margin: 40px 0;
+    max-width: 60px;
+    width: 100%;
+}
+.header__text {
+    color: #929394;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header__block-title {
+    background-color: #f5f5f5;
+}
+header span {
+    color: #ff9b51;
+}
+.header__block-btn input {
+    background-color: #ff9b51;
+    border: 0;
+    font-size: 15px;
+}
+
+/*Social-itms*/
+.social__items i {
+    color: #929394;
+    font-size: 30px;
+}
+.social__items i:hover {
+    color: #ff9b51;
+    font-size: 40px;
+}
+
+/*tabs*/ 
+
+.tabs button {
+    background-color: #ff9b51 !important;
+}
+.tabs__item {
+    background-color: #333333;
+    margin-bottom: 1px;
+    padding: 50px 35px;
+    font-size: 15px;
+}
+.tabs__item:hover {
+    background-color: #ff9b51;
+    transition: 0.2s linear;
+}
+.tabs h2 {
+    margin-bottom: 60px;
+}
+.tabs button {
+    margin-top: 60px;
+}
+
+/*pictures*/
+.pictures img {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+.pictures i {
+    font-size: 30px;
+    color: #ff9b51;
+}
+
+/* imgs */ 
+.imgs img {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+
+.cards i {
+    font-size: 30px;
+    color: #ff9b51;
+    margin-top: 80px;
+ 
+}
+.cards h2 {
+    margin:30px 0;
+}
+/* pricing */
+.card-title {
+    background-color: #333333;
+    margin: 0;
+}
+.card-title h1{
+    font-size: 120px;
+    font-family: Raleway;
+} 
+.card-title h5{
+    font-size: 14px;
+    color: #929394;
+}
+.card-title span {
+    font-size: 60px;
+}
+.card-text {
+    background-color: #ff9b51;
+}
+.card-text p {
+    visibility: hidden;
+    height: 1px;
+}
+.card :hover .card-text p {
+    visibility: visible;
+    height: auto;
+    transition: 0.1s linear;
+}
+.card :hover .card-title h1 {
+    font-size: 150px;
+}
+.card-body {
+    padding: 0;
+}
+.card-suptext {
+    text-transform: uppercase;
+    color: #929394;
+    border-bottom: 1px solid #929394;
+}
+.card-suptext h6 {
+    padding: 5px 0;
+    font-size: 14px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.card-suptext h6:last-child {
+    border-bottom: none;
+}
+.review h4 {
+    font-style: italic;
+}
+
+.style {
+    padding: 40px 0;
+    position: relative;
+    background: url(../Images/design_bg.jpg) center center fixed;
+    background-size: cover;
+}
+.style::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.style .container {
+    z-index: 3;
+    position: relative;
+}
+.footer__items {
+    font-size: 30px;
+    color: #929394;
+}
+.footer__items i:hover {
+    font-size: 40px;
+    color: #f5f5f5;
+}
+.footer__items i {
+    padding-right: 20px;
+}
+.footer__items i:last-child {
+    padding-right: 0;
+}
+footer h6 {
+    color: #f5f5f5;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:765px) {
+    .padding {
+        padding: 40px 0;
+    }
+    .header__hr {
+        margin: 5px 0;
+    }
+    .section__text h1{
+font-size: 20px;
+    }
+    .section__text h2{
+        font-size: 18px;
+    }
+    .header__title h1 {
+font-size: 20px;
+    }
+    .header__title p {
+        font-size: 12px;
+     }
+     header .btn {
+         display: flex;
+         justify-content: center;
+         margin: 20px auto;
+     }
+     .tabs .section__text h2 {
+         margin-top: 40px;
+     }
+     .tabs .btn {
+         margin-bottom: 40px;
+     }
+     .tabs .col-md-10 {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .pictures .row-rewerse {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row-reverse;
+            }
+    .row-nrp {
+        flex-wrap: nowrap;
+        display: flex;
+    }
+ }
