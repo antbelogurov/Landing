@@ -46,7 +46,7 @@
 
 /* Header */
 header {
-    background: url(../Images/header_bg.jpg) center center fixed;
+    background: url(../images/header_bg.jpg) center center fixed;
     background-size: cover;
 }
 
@@ -185,7 +185,7 @@ header span {
 .style {
     padding: 40px 0;
     position: relative;
-    background: url(../Images/design_bg.jpg) center center fixed;
+    background: url(../images/design_bg.jpg) center center fixed;
     background-size: cover;
 }
 .style::after {
